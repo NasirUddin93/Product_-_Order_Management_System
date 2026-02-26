@@ -23,6 +23,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // sample products
-        \App\Models\Product::factory()->count(20)->create();
+        \App\Models\Product::factory()->count(10)->create();
     }
 }
